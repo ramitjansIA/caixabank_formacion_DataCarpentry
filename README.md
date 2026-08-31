@@ -1,26 +1,39 @@
 # Data Carpentry — Laboratorios v2
 
-Esta versión divide el curso en 15 notebooks para facilitar la docencia por sesiones.
+Los materiales mantienen los notebooks introductorios y agrupan las sesiones
+prácticas finales en carpetas autocontenidas. Cada carpeta de sesión incluye:
+
+- `notebook_alumnado.ipynb`;
+- `notebook_solucion.ipynb`;
+- `presentacion.html` autocontenida;
+- únicamente los datos o recursos necesarios para ejecutar los notebooks.
 
 ## Módulo 1. Código Python profesional
-01. Del notebook al proyecto
-02. Clean code, estructura e imports
-03. Funciones, type hints y docstrings
-04. Logging, excepciones y refactorización
+
+- `01_del_notebook_al_proyecto.ipynb`
+- `02_clean_code_estructura_imports.ipynb`
+- `03_funciones_type_hints_docstrings.ipynb`
+- `calidad_refactorizacion/`
 
 ## Módulo 2. Pandas avanzado
-05. Estructuras internas y selección
-06. GroupBy, aggregations y transform
-07. MultiIndex, pivot tables y joins
-08. Memoria, vectorización y pipeline
+
+- `05_pandas_estructuras_seleccion_eficiente.ipynb`
+- `06_groupby_agg_transform_pandas_polars.ipynb`
+- `07_multiindex_pivot_joins_merges_pandas_polars.ipynb`
+- `laboratorio_pipeline/`
+- `09_series_temporales_rolling_resampling_pandas_polars.ipynb`
 
 ## Módulo 3. Programación eficiente
-09. Complejidad y benchmarking
-10. Profiling
-11. Iteradores, generadores y chunks
-12. Threading, multiprocessing, Numba y Polars
+
+- `optimizacion_de_rendimiento_en_python/`
+- `programacion_eficiente/`
 
 ## Módulo 4. Proyecto profesional
-13. Repositorio, entornos y configuración
-14. Testing, calidad y packaging
-15. Automatización, FastAPI, GitHub y proyecto final
+
+- `proyecto_profesional_cierre/`
+
+## Notebooks sustituidos
+
+Las nuevas sesiones integran y sustituyen los antiguos notebooks 04, 08,
+10, 11, 12, 13, 14 y 15. Se conserva el notebook 09 de series temporales
+porque no queda reemplazado por las nuevas prácticas.

@@ -1,0 +1,6 @@
+fecha,region,canal,estado,importe
+2025-01-02,norte,app,confirmada,120.0
+2025-01-03,norte,oficina,confirmada,80.0
+2025-01-04,sur,web,rechazada,150.0
+2025-02-01,sur,app,confirmada,200.0
+2025-02-03,norte,web,confirmada,50.0

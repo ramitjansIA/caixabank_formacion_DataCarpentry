@@ -1,0 +1,4 @@
+# Alternativa legible para una configuración estructurada. No se usa en el MVP.
+input_path: data/raw/operaciones.csv
+output_path: data/processed/informe_operaciones.csv
+importe_minimo: 0.0
